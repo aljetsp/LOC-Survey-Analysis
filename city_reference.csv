@@ -1,0 +1,201 @@
+city,population,region_code,region_name,quintile
+Adams,410,11,NE Oregon,1
+Albany,57777,4,S. Willamette,5
+Amity,1845,3,N. Willamette,3
+Arlington,678,8,Gorge,2
+Ashland,21862,7,S. Oregon,5
+Astoria,10131,1,N. Coast,4
+Athena,1238,11,NE Oregon,2
+Aumsville,4028,3,N. Willamette,4
+Baker City,10104,12,E. Oregon,4
+Bandon,3592,6,S. Coast,4
+Banks,1864,2,Metro,3
+Bay City,1598,1,N. Coast,3
+Beaverton,100778,2,Metro,5
+Bend,104089,9,C. Oregon,5
+Boardman,4725,11,NE Oregon,4
+Brookings,6829,6,S. Coast,4
+Burns,2728,12,E. Oregon,3
+Butte Falls,443,7,S. Oregon,1
+Canby,19114,2,Metro,5
+Cannon Beach,1514,1,N. Coast,3
+Canyon City,675,12,E. Oregon,2
+Canyonville,1643,7,S. Oregon,3
+Carlton,2456,3,N. Willamette,3
+Cascade Locks,1412,8,Gorge,3
+Cave Junction,2103,7,S. Oregon,3
+Central Point,19678,7,S. Oregon,5
+Chiloquin,777,10,SC Oregon,2
+Clatskanie,1791,1,N. Coast,3
+Coburg,1456,4,S. Willamette,3
+Columbia City,1946,1,N. Coast,3
+Condon,742,8,Gorge,2
+Coos Bay,16093,6,S. Coast,5
+Cornelius,14490,2,Metro,5
+Corvallis,60408,4,S. Willamette,5
+Cottage Grove,10909,4,S. Willamette,5
+Cove,635,11,NE Oregon,2
+Creswell,5735,4,S. Willamette,4
+Dallas,17924,3,N. Willamette,5
+Dana,17924,3,N. Willamette,5
+Dayton,2665,3,N. Willamette,3
+Depoe Bay,1547,5,C. Coast,3
+Detroit,174,3,N. Willamette,1
+Donald,1158,3,N. Willamette,2
+Dundee,3249,3,N. Willamette,3
+Dunes City,1468,5,C. Coast,3
+Durham,1964,2,Metro,3
+Eagle Point,9866,7,S. Oregon,4
+Elgin,1822,11,NE Oregon,3
+Elkton,202,7,S. Oregon,1
+Enterprise,2107,11,NE Oregon,3
+Estacada,5454,2,Metro,4
+Eugene,177155,4,S. Willamette,5
+Fairview,10473,2,Metro,4
+Falls City,1138,3,N. Willamette,2
+Florence,9598,5,C. Coast,4
+Forest Grove,26916,2,Metro,5
+Gates,573,3,N. Willamette,2
+Gervais,2724,3,N. Willamette,3
+Gladstone,11992,2,Metro,5
+Glendale,859,7,S. Oregon,2
+Gold Beach,2417,6,S. Coast,3
+Gold Hill,1363,7,S. Oregon,2
+Grants Pass,40380,7,S. Oregon,5
+Grass Valley,164,8,Gorge,1
+Greenhorn,3,12,E. Oregon,1
+Gresham,115233,2,Metro,5
+Halfway,365,12,E. Oregon,1
+Halsey,975,4,S. Willamette,2
+Happy Valley,27637,2,Metro,5
+Harrisburg,3670,4,S. Willamette,4
+Heppner,1205,11,NE Oregon,2
+Hermiston,20296,11,NE Oregon,5
+Hillsboro,112035,2,Metro,5
+Hines,1659,12,E. Oregon,3
+Hood River,8633,8,Gorge,4
+Hubbard,3478,3,N. Willamette,4
+Huntington,506,12,E. Oregon,2
+Idanha,156,3,N. Willamette,1
+Imbler,253,11,NE Oregon,1
+Independence,10638,3,N. Willamette,4
+Ione,342,11,NE Oregon,1
+Irrigon,2372,11,NE Oregon,3
+Island City,1146,11,NE Oregon,2
+Jacksonville,3066,7,S. Oregon,3
+Jefferson,3524,3,N. Willamette,4
+John Day,1643,12,E. Oregon,3
+Johnson City,535,2,Metro,2
+Jordan Valley,131,12,E. Oregon,1
+Joseph,1182,11,NE Oregon,2
+Keizer,39540,3,N. Willamette,5
+King City,5030,2,Metro,4
+Klamath Falls,22135,10,SC Oregon,5
+La Grande,12869,11,NE Oregon,5
+La Pine,3110,9,C. Oregon,3
+Lafayette,4755,3,N. Willamette,4
+Lake Oswego,41474,2,Metro,5
+Lakeside,1921,6,S. Coast,3
+Lebanon,20060,4,S. Willamette,5
+Lexington,244,11,NE Oregon,1
+Lincoln City,10162,5,C. Coast,4
+Lonerock,25,8,Gorge,1
+Long Creek,173,12,E. Oregon,1
+Lowell,1304,4,S. Willamette,2
+Lyons,1240,4,S. Willamette,2
+Madras,7982,9,C. Oregon,4
+Malin,736,10,SC Oregon,2
+Manzanita,657,1,N. Coast,2
+Maupin,448,8,Gorge,1
+Maywood Park,830,2,Metro,2
+McMinnville,34774,3,N. Willamette,5
+Medford,89946,7,S. Oregon,5
+Merrill,854,10,SC Oregon,2
+Metolius,1015,9,C. Oregon,2
+Millersburg,3214,4,S. Willamette,3
+Milton-Freewater,7321,11,NE Oregon,4
+Milwaukie,21408,2,Metro,5
+Molalla,10489,3,N. Willamette,4
+Monmouth,11516,3,N. Willamette,5
+Moro,375,8,Gorge,1
+Mosier,493,8,Gorge,1
+Mt. Angel,3594,3,N. Willamette,4
+Mt. Vernon,549,12,E. Oregon,2
+Myrtle Creek,3501,7,S. Oregon,4
+Myrtle Point,2490,6,S. Coast,3
+Nehalem,299,1,N. Coast,1
+Newberg,26249,3,N. Willamette,5
+Newport,10623,5,C. Coast,4
+North Bend,10402,6,S. Coast,4
+North Plains,3815,2,Metro,4
+Oakland,954,7,S. Oregon,2
+Oakridge,3167,4,S. Willamette,3
+Ontario,11874,12,E. Oregon,5
+Oregon City,38029,2,Metro,5
+Paisley,260,10,SC Oregon,1
+Pendleton,16996,11,NE Oregon,5
+Philomath,5776,4,S. Willamette,4
+Phoenix,4413,7,S. Oregon,4
+Port Orford,1167,6,S. Coast,2
+Portland,640623,2,Metro,5
+Powers,719,6,S. Coast,2
+Prairie City,846,12,E. Oregon,2
+Prineville,12288,9,C. Oregon,5
+Rainier,1939,1,N. Coast,3
+Redmond,37146,9,C. Oregon,5
+Reedsport,4368,6,S. Coast,4
+Richland,165,12,E. Oregon,1
+Riddle,1234,7,S. Oregon,2
+Rivergrove,569,2,Metro,2
+Rockaway Beach,1533,1,N. Coast,3
+Rogue River,2484,7,S. Oregon,3
+Roseburg,23910,7,S. Oregon,5
+Rufus,277,8,Gorge,1
+Salem,177567,3,N. Willamette,5
+Sandy,13044,2,Metro,5
+Scappoose,8251,1,N. Coast,4
+Scotts Mills,459,3,N. Willamette,1
+Seaside,7268,1,N. Coast,4
+Seneca,171,12,E. Oregon,1
+Sheridan,6277,3,N. Willamette,4
+Sherwood,20781,2,Metro,5
+Siletz,1234,5,C. Coast,2
+Silverton,10970,3,N. Willamette,5
+Sisters,3834,9,C. Oregon,4
+Spray,141,9,C. Oregon,1
+Springfield,62996,4,S. Willamette,5
+St. Helens,14552,1,N. Coast,5
+Stanfield,2295,11,NE Oregon,3
+Stayton,8176,3,N. Willamette,4
+Sublimity,3094,3,N. Willamette,3
+Summerville,117,11,NE Oregon,1
+Sumpter,209,12,E. Oregon,1
+Sutherlin,8591,7,S. Oregon,4
+Sweet Home,10116,4,S. Willamette,4
+Talent,6411,7,S. Oregon,4
+The Dalles,16103,8,Gorge,5
+Tigard,56392,2,Metro,5
+Tillamook,5198,1,N. Coast,4
+Toledo,3654,5,C. Coast,4
+Troutdale,15790,2,Metro,5
+Turner,2872,3,N. Willamette,3
+Ukiah,277,11,NE Oregon,1
+Umatilla,8617,11,NE Oregon,4
+Unity,40,12,E. Oregon,1
+Vale,1870,12,E. Oregon,3
+Veneta,5300,4,S. Willamette,4
+Vernonia,2433,1,N. Coast,3
+Waldport,2339,5,C. Coast,3
+Warrenton,6446,1,N. Coast,4
+Waterloo,219,4,S. Willamette,1
+West Linn,27568,2,Metro,5
+Westfir,261,4,S. Willamette,1
+Weston,707,11,NE Oregon,2
+Wheeler,428,1,N. Coast,1
+Willamina,2310,3,N. Willamette,3
+Wilsonville,27048,2,Metro,5
+Winston,5666,7,S. Oregon,4
+Wood Village,4388,2,Metro,4
+Woodburn,29455,3,N. Willamette,5
+Yachats,1003,5,C. Coast,2
+Yamhill,1309,3,N. Willamette,2

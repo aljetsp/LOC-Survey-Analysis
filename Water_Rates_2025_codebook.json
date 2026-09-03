@@ -1,0 +1,2086 @@
+{
+  "_instructions": [
+    "Review every entry whose note begins with REVIEW.",
+    "'codes' maps each answer label to the integer used in the analysis;",
+    "edit the numbers to control the order options appear in the crosstabs.",
+    "Set 'kind' to skip to drop a column from the output entirely."
+  ],
+  "meta": {
+    "source": "/mnt/user-data/uploads/Water_Rates_Survey_2025_October_16__2025_10_08.xlsx",
+    "sheet": "RAW",
+    "first_data_row": 3,
+    "last_data_row": 96
+  },
+  "columns": [
+    {
+      "index": 1,
+      "qid": "StartDate",
+      "text": "Start Date",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 2,
+      "qid": "EndDate",
+      "text": "End Date",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 3,
+      "qid": "Status",
+      "text": "Response Type",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 4,
+      "qid": "IPAddress",
+      "text": "IP Address",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 5,
+      "qid": "Progress",
+      "text": "Progress",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 6,
+      "qid": "Duration (in seconds)",
+      "text": "Duration (in seconds)",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 7,
+      "qid": "Finished",
+      "text": "Finished",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 8,
+      "qid": "RecordedDate",
+      "text": "Recorded Date",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 9,
+      "qid": "ResponseId",
+      "text": "Response ID",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 10,
+      "qid": "RecipientLastName",
+      "text": "Recipient Last Name",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 11,
+      "qid": "RecipientFirstName",
+      "text": "Recipient First Name",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 12,
+      "qid": "RecipientEmail",
+      "text": "Recipient Email",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 13,
+      "qid": "ExternalReference",
+      "text": "External Data Reference",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 14,
+      "qid": "LocationLatitude",
+      "text": "Location Latitude",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 15,
+      "qid": "LocationLongitude",
+      "text": "Location Longitude",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 16,
+      "qid": "DistributionChannel",
+      "text": "Distribution Channel",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 17,
+      "qid": "UserLanguage",
+      "text": "User Language",
+      "role": "metadata",
+      "kind": "skip",
+      "codes": {},
+      "note": "Qualtrics metadata"
+    },
+    {
+      "index": 18,
+      "qid": "Q2_1",
+      "text": "Respondent Information: - City Name:",
+      "role": "city",
+      "kind": "skip",
+      "codes": {},
+      "note": "city identifier"
+    },
+    {
+      "index": 19,
+      "qid": "Q2_2",
+      "text": "Respondent Information: - Your Name:",
+      "role": "pii",
+      "kind": "skip",
+      "codes": {},
+      "note": "respondent contact detail"
+    },
+    {
+      "index": 20,
+      "qid": "Q2_3",
+      "text": "Respondent Information: - Your Job Title:",
+      "role": "pii",
+      "kind": "skip",
+      "codes": {},
+      "note": "respondent contact detail"
+    },
+    {
+      "index": 21,
+      "qid": "Q2_4",
+      "text": "Respondent Information: - Your Email Address:",
+      "role": "pii",
+      "kind": "skip",
+      "codes": {},
+      "note": "respondent contact detail"
+    },
+    {
+      "index": 22,
+      "qid": "Q2_5",
+      "text": "Respondent Information: - Your Phone Number:",
+      "role": "pii",
+      "kind": "skip",
+      "codes": {},
+      "note": "respondent contact detail"
+    },
+    {
+      "index": 23,
+      "qid": "Q4",
+      "text": "How often are bills issued? - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Bi-Monthly": 2,
+        "Monthly": 1,
+        "Quarterly": 3,
+        "Other (Please Specify)": 4
+      },
+      "note": "recognised answer scale (+ Other)"
+    },
+    {
+      "index": 24,
+      "qid": "Q4_4_TEXT",
+      "text": "How often are bills issued? - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 25,
+      "qid": "Q5",
+      "text": "What methods of payment are accepted? (Check all that apply)",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Cash": 1,
+        "Check": 2,
+        "Credit/Debit": 3,
+        "Direct Deposit": 4,
+        "Money Order": 5,
+        "e-check": 6
+      },
+      "note": "6 options, expanded to indicator columns"
+    },
+    {
+      "index": 26,
+      "qid": "Q6",
+      "text": "Do you provide paperless billing?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 27,
+      "qid": "Q7",
+      "text": "What methods of enforcement are used for late or nonpayments? (Check all that Apply) - Selected Choice",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Collections": 1,
+        "Disconnect Water Service": 2,
+        "Late Fee": 3,
+        "Late Fee and Interest": 4,
+        "Lien on Property": 5,
+        "Other (Please Specify)": 6
+      },
+      "note": "6 options, expanded to indicator columns"
+    },
+    {
+      "index": 28,
+      "qid": "Q7_6_TEXT",
+      "text": "What methods of enforcement are used for late or nonpayments? (Check all that Apply) - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 29,
+      "qid": "Q8",
+      "text": "What is the late fee rate?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 12 non-numeric answers will be blanked"
+    },
+    {
+      "index": 30,
+      "qid": "Q9",
+      "text": "What is the interest rate?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 31,
+      "qid": "Q10",
+      "text": "How many days past due date are allowed before the late fee is assessed?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 11 non-numeric answers will be blanked"
+    },
+    {
+      "index": 32,
+      "qid": "Q11_1",
+      "text": "What is the penalties amount and interest rate? - Penalties Amount",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 33,
+      "qid": "Q11_2",
+      "text": "What is the penalties amount and interest rate? - Interest Rate",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 34,
+      "qid": "Q12",
+      "text": "How many days after due date before you disconnect water service?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 12 non-numeric answers will be blanked"
+    },
+    {
+      "index": 35,
+      "qid": "Q13_1",
+      "text": "What dollar amount or number of days late triggers collections? - Dollar Amount",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 4 non-numeric answers will be blanked"
+    },
+    {
+      "index": 36,
+      "qid": "Q13_2",
+      "text": "What dollar amount or number of days late triggers collections? - Days",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 37,
+      "qid": "Q14",
+      "text": "Does the city provide waivers, discounts or reductions to certain utility customers?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 38,
+      "qid": "Q15",
+      "text": "Please describe these waivers, discounts and reductions:",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 39,
+      "qid": "Q16",
+      "text": "Does your city provide credit or make any billing adjustments for leaks or billing errors?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 1,
+        "Yes, billing errors": 2,
+        "Yes, both": 3,
+        "Yes, water leaks": 4
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 40,
+      "qid": "Q17",
+      "text": "For what services are adjustments made for customer water leaks",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Wastewater": 1,
+        "Water": 2,
+        "Water,Wastewater": 3
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 41,
+      "qid": "Q18_1",
+      "text": "If a leak is detected, how far back does the city make adjustments to the water bill? - Days",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 11 non-numeric answers will be blanked"
+    },
+    {
+      "index": 42,
+      "qid": "Q18_2",
+      "text": "If a leak is detected, how far back does the city make adjustments to the water bill? - Other Comments",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 43,
+      "qid": "Q19",
+      "text": "Please describe what you do for wastewater adjustments.",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 44,
+      "qid": "Q22#1_1_1",
+      "text": "What percentage of rate revenue is obligated to debt services for the following systems? - Rate Revenue - Water - %",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": ""
+    },
+    {
+      "index": 45,
+      "qid": "Q22#1_2_1",
+      "text": "What percentage of rate revenue is obligated to debt services for the following systems? - Rate Revenue - Wastewater - %",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": ""
+    },
+    {
+      "index": 46,
+      "qid": "Q22#1_3_1",
+      "text": "What percentage of rate revenue is obligated to debt services for the following systems? - Rate Revenue - Stormwater - %",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": ""
+    },
+    {
+      "index": 47,
+      "qid": "Q22#2_1",
+      "text": "What percentage of rate revenue is obligated to debt services for the following systems? - Not Applicable - Water",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "N/A": 1
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 48,
+      "qid": "Q22#2_2",
+      "text": "What percentage of rate revenue is obligated to debt services for the following systems? - Not Applicable - Wastewater",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "N/A": 1
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 49,
+      "qid": "Q22#2_3",
+      "text": "What percentage of rate revenue is obligated to debt services for the following systems? - Not Applicable - Stormwater",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "N/A": 1
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 50,
+      "qid": "Q23_1",
+      "text": "Does your city maintain an asset management system for the following services? - Water",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 51,
+      "qid": "Q23_2",
+      "text": "Does your city maintain an asset management system for the following services? - Wastewater",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 52,
+      "qid": "Q23_3",
+      "text": "Does your city maintain an asset management system for the following services? - Stormwater",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 53,
+      "qid": "Q24_1",
+      "text": "What was the last year you did a Rate Study for the following services? - Water",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 10 non-numeric answers will be blanked"
+    },
+    {
+      "index": 54,
+      "qid": "Q24_2",
+      "text": "What was the last year you did a Rate Study for the following services? - Wastewater",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 55,
+      "qid": "Q24_3",
+      "text": "What was the last year you did a Rate Study for the following services? - Stormwater",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 56,
+      "qid": "Q25_1",
+      "text": "What was the last year you did a Methodology Update for the following services? - Water",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 9 non-numeric answers will be blanked"
+    },
+    {
+      "index": 57,
+      "qid": "Q25_2",
+      "text": "What was the last year you did a Methodology Update for the following services? - Wastewater",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 58,
+      "qid": "Q25_3",
+      "text": "What was the last year you did a Methodology Update for the following services? - Stormwater",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 59,
+      "qid": "Q26",
+      "text": "Does your city require accounts to be in the name of the property owner?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 60,
+      "qid": "Q27",
+      "text": "How does your city handle billing for vacant properties? - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Charge a vacant rate upon request of the owner. (Please Explain)": 1,
+        "Close accounts with no charges until opened by next occupant": 2,
+        "Our city does not handle billing for vacant properties": 3,
+        "Other (Please Specify)": 4
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 61,
+      "qid": "Q27_2_TEXT",
+      "text": "How does your city handle billing for vacant properties? - Charge a vacant rate upon request of the owner. (Please Explain) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 62,
+      "qid": "Q27_4_TEXT",
+      "text": "How does your city handle billing for vacant properties? - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 63,
+      "qid": "Q28",
+      "text": "What other account fees or charges are included on the utility bill? (Check all that apply) - Selected Choice",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Backflow": 1,
+        "New Account": 2,
+        "None": 3,
+        "Other (Please Specify)": 4,
+        "Shutoff": 5,
+        "Tampering": 6
+      },
+      "note": "6 options, expanded to indicator columns"
+    },
+    {
+      "index": 64,
+      "qid": "Q28_6_TEXT",
+      "text": "What other account fees or charges are included on the utility bill? (Check all that apply) - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 65,
+      "qid": "Q29",
+      "text": "Is stormwater included in the utility bill?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 66,
+      "qid": "Q30",
+      "text": "What general government fees are included on the utility bill? (Check all that apply) - Selected Choice",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Fire": 1,
+        "Library": 2,
+        "Other (Please Specify)": 3,
+        "Parks & Recreation": 4,
+        "Police": 5,
+        "Streets & Streetlights": 6,
+        "Surface Water Management": 7
+      },
+      "note": "7 options, expanded to indicator columns"
+    },
+    {
+      "index": 67,
+      "qid": "Q30_6_TEXT",
+      "text": "What general government fees are included on the utility bill? (Check all that apply) - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 68,
+      "qid": "Q31_1",
+      "text": "Does city ordinance have an automatic CPI/Income adjustment for the following services? - Water",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 69,
+      "qid": "Q31_2",
+      "text": "Does city ordinance have an automatic CPI/Income adjustment for the following services? - Wastewater",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 70,
+      "qid": "Q31_3",
+      "text": "Does city ordinance have an automatic CPI/Income adjustment for the following services? - Stormwater",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 71,
+      "qid": "Q32",
+      "text": "Does your city charge for drinking water service?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 72,
+      "qid": "Q33",
+      "text": "What was the last effective date of your city's most recent rate change for water services? (Please respond with the year only)",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 6 non-numeric answers will be blanked"
+    },
+    {
+      "index": 73,
+      "qid": "Q34",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please also include the percent (%) change. - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Increase (% Increase)": 1
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 74,
+      "qid": "Q34_1_TEXT",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please also include the percent (%) change. - Increase (% Increase) - Text",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 3 non-numeric answers will be blanked"
+    },
+    {
+      "index": 75,
+      "qid": "Q34_2_TEXT",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please also include the percent (%) change. - Decrease (% Decrease) - Text",
+      "role": "question",
+      "kind": "skip",
+      "codes": {},
+      "note": "no responses"
+    },
+    {
+      "index": 76,
+      "qid": "Q35",
+      "text": "Why did the city change water rates? (Check all that apply) - Selected Choice",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Capital Improvement": 1,
+        "Inflation/ CPI": 2,
+        "Labor Costs": 3,
+        "Other (Please Specify)": 4,
+        "State/ Federal Mandate": 5,
+        "Treatment Costs": 6
+      },
+      "note": "6 options, expanded to indicator columns"
+    },
+    {
+      "index": 77,
+      "qid": "Q35_7_TEXT",
+      "text": "Why did the city change water rates? (Check all that apply) - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 78,
+      "qid": "Q36",
+      "text": "What is the rate structure for your city's water service? - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Flat + Inclining Rate": 1,
+        "Flat Rate (Monthly Lump Sum)": 2,
+        "Inclining Block Rate": 3,
+        "Uniform Rate (Monthly Rate based on Number of Gallons Used)": 4,
+        "Other (Please Specify)": 5
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 79,
+      "qid": "Q36_4_TEXT",
+      "text": "What is the rate structure for your city's water service? - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 80,
+      "qid": "Q37",
+      "text": "For water services, if you were to bill a residential customer for 5,000 gallons (6.684 CCFs) with a 3/4'' meter size, what dollar amount would you bill them, including the base rate?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 13 non-numeric answers will be blanked"
+    },
+    {
+      "index": 81,
+      "qid": "Q38",
+      "text": "Does your city charge for wastewater service?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 82,
+      "qid": "Q39",
+      "text": "What was the last effective date of your city's most recent rate change for wastewater services? (Please respond with the year only)",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 83,
+      "qid": "Q40",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please include percent (%) change. - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Increase (% Increase)": 1
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 84,
+      "qid": "Q40_1_TEXT",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please include percent (%) change. - Increase (% Increase) - Text",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 6 non-numeric answers will be blanked"
+    },
+    {
+      "index": 85,
+      "qid": "Q40_2_TEXT",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please include percent (%) change. - Decrease (% Decrease) - Text",
+      "role": "question",
+      "kind": "skip",
+      "codes": {},
+      "note": "no responses"
+    },
+    {
+      "index": 86,
+      "qid": "Q41",
+      "text": "Why did the city change wastewater rates? (Check all that apply) - Selected Choice",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Capital Improvement": 1,
+        "Inflation/ CPI": 2,
+        "Labor Costs": 3,
+        "Other (Please Specify)": 4,
+        "State/ Federal Mandate": 5,
+        "Treatment Costs": 6
+      },
+      "note": "6 options, expanded to indicator columns"
+    },
+    {
+      "index": 87,
+      "qid": "Q41_7_TEXT",
+      "text": "Why did the city change wastewater rates? (Check all that apply) - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 88,
+      "qid": "Q42",
+      "text": "What is the rate structure for your city's wastewater service? - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Flat Rate": 1,
+        "Winter average water consumption used all year": 2,
+        "Winter average water consumption used in summer months": 3,
+        "Other (Please Specify)": 4
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 89,
+      "qid": "Q42_4_TEXT",
+      "text": "What is the rate structure for your city's wastewater service? - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 90,
+      "qid": "Q43",
+      "text": "For wastewater services, if you were to bill a residential customer for 5,000 gallons (6.684 CCFs) with a 3/4'' meter size, what dollar amount would you bill them, including the base rate?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 8 non-numeric answers will be blanked"
+    },
+    {
+      "index": 91,
+      "qid": "Q44",
+      "text": "Does your city charge for stormwater service?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 92,
+      "qid": "Q45",
+      "text": "What was the last effective date of your city's most recent rate change for stormwater services? (Please respond with the year only)",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "2003": 1,
+        "2006": 2,
+        "2012": 3,
+        "2021": 4,
+        "2022": 5,
+        "2023": 6,
+        "2025": 7,
+        "7/1/2024": 8,
+        "7/1/25": 9,
+        "July 2025": 10
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 93,
+      "qid": "Q46",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please include the percent (%) change. - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Increase (% Increase)": 1
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 94,
+      "qid": "Q46_1_TEXT",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please include the percent (%) change. - Increase (% Increase) - Text",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 95,
+      "qid": "Q46_2_TEXT",
+      "text": "Overall, did the rate increase or decrease at the most recent rate change? Please include the percent (%) change. - Decrease (% Decrease) - Text",
+      "role": "question",
+      "kind": "skip",
+      "codes": {},
+      "note": "no responses"
+    },
+    {
+      "index": 96,
+      "qid": "Q47",
+      "text": "Is your city subject to an MS4 Phase I or Phase II (DEQ Issued Stormwater) Permit?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Unsure": 3,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 97,
+      "qid": "Q48",
+      "text": "Why did the city change stormwater rates? (Check all that apply) - Selected Choice",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Capital Improvement": 1,
+        "Inflation/ CPI": 2,
+        "Labor Costs": 3,
+        "Other (Please Specify)": 4,
+        "State/ Federal Mandate": 5,
+        "Treatment Costs": 6
+      },
+      "note": "6 options, expanded to indicator columns"
+    },
+    {
+      "index": 98,
+      "qid": "Q48_7_TEXT",
+      "text": "Why did the city change stormwater rates? (Check all that apply) - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 99,
+      "qid": "Q49",
+      "text": "What is the rate structure for your city's stormwater service? - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Stormwater fees are a separate utility fee": 1,
+        "Other (Please Specify)": 2
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 100,
+      "qid": "Q49_5_TEXT",
+      "text": "What is the rate structure for your city's stormwater service? - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 101,
+      "qid": "Q50",
+      "text": "Does your city offer stormwater fee reductions or credits for onsite stormwater management?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 102,
+      "qid": "Q51",
+      "text": "Please describe the reduction or credit (including the amount for onsite stormwater management)",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 103,
+      "qid": "Q52",
+      "text": "What does the average house pay for stormwater services (dollars per month)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 3 non-numeric answers will be blanked"
+    },
+    {
+      "index": 104,
+      "qid": "Q54",
+      "text": "Does your city provide drinking water services?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 105,
+      "qid": "Q55_1_1",
+      "text": "What is the service population in 2024? - Service Population (Permanent Residents) - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 106,
+      "qid": "Q55_1_2",
+      "text": "What is the service population in 2024? - Service Population (Permanent Residents) - Outside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 107,
+      "qid": "Q55_2_1",
+      "text": "What is the service population in 2024? - Service Population (Including Peak Seasonal) - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 8 non-numeric answers will be blanked"
+    },
+    {
+      "index": 108,
+      "qid": "Q55_2_2",
+      "text": "What is the service population in 2024? - Service Population (Including Peak Seasonal) - Outside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 109,
+      "qid": "Q56_1_1",
+      "text": "Please list the number of connections for the following: - Residential - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 110,
+      "qid": "Q56_1_2",
+      "text": "Please list the number of connections for the following: - Residential - Outside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 0 non-numeric answers will be blanked"
+    },
+    {
+      "index": 111,
+      "qid": "Q56_2_1",
+      "text": "Please list the number of connections for the following: - Commercial - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 112,
+      "qid": "Q56_2_2",
+      "text": "Please list the number of connections for the following: - Commercial - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "1": 2,
+        "111": 3,
+        "13": 4,
+        "2": 5,
+        "26 bills": 6,
+        "3": 7,
+        "342": 8,
+        "4": 9,
+        "43": 10,
+        "5": 11,
+        "unknown": 12
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 113,
+      "qid": "Q56_3_1",
+      "text": "Please list the number of connections for the following: - Other - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 114,
+      "qid": "Q56_3_2",
+      "text": "Please list the number of connections for the following: - Other - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "19": 2,
+        "6": 3,
+        "662": 4,
+        "NA": 5
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 115,
+      "qid": "Q57",
+      "text": "What is the annual average water consumption for residential customers (in gallons)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 3 non-numeric answers will be blanked"
+    },
+    {
+      "index": 116,
+      "qid": "Q58_1",
+      "text": "Please provide the following facility and water source information: - Total miles of water lines (all sizes), not including service laterals",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 117,
+      "qid": "Q58_2",
+      "text": "Please provide the following facility and water source information: - Total number of pumps and lift stations in your city",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 7 non-numeric answers will be blanked"
+    },
+    {
+      "index": 118,
+      "qid": "Q58_3",
+      "text": "Please provide the following facility and water source information: - How many levels or zones based on elevation do you have?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 3 non-numeric answers will be blanked"
+    },
+    {
+      "index": 119,
+      "qid": "Q58_4",
+      "text": "Please provide the following facility and water source information: - How far away is the water source from the city (miles)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 120,
+      "qid": "Q59_1",
+      "text": "Please provide the following system age and capacity information: - Year of original system construction completion",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 6 non-numeric answers will be blanked"
+    },
+    {
+      "index": 121,
+      "qid": "Q59_2",
+      "text": "Please provide the following system age and capacity information: - Year of last major update",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 4 non-numeric answers will be blanked"
+    },
+    {
+      "index": 122,
+      "qid": "Q59_3",
+      "text": "Please provide the following system age and capacity information: - What is the capacity of your water source?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 10 non-numeric answers will be blanked"
+    },
+    {
+      "index": 123,
+      "qid": "Q59_4",
+      "text": "Please provide the following system age and capacity information: - What is the design capacity of your water plant(s) (MGD)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 11 non-numeric answers will be blanked"
+    },
+    {
+      "index": 124,
+      "qid": "Q59_5",
+      "text": "Please provide the following system age and capacity information: - What was the average daily production in 2024 (MG)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 3 non-numeric answers will be blanked"
+    },
+    {
+      "index": 125,
+      "qid": "Q59_6",
+      "text": "Please provide the following system age and capacity information: - How much of your daily average production is sold (not including city use)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 126,
+      "qid": "Q59_7",
+      "text": "Please provide the following system age and capacity information: - What was the peak flow of water treated in a 24-hour period in 2024 ?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 4 non-numeric answers will be blanked"
+    },
+    {
+      "index": 127,
+      "qid": "Q60_1_1",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - Closed Tanks - Raw Water Storage (MG)",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "21": 4,
+        "N/A": 5,
+        "NA": 6,
+        "n/a": 7,
+        "na": 8,
+        "unknown": 9
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 128,
+      "qid": "Q60_1_2",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - Closed Tanks - Treated Water Storage (MG)",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 4 non-numeric answers will be blanked"
+    },
+    {
+      "index": 129,
+      "qid": "Q60_2_1",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - Covered Urban Reservoirs - Raw Water Storage (MG)",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "100,000": 2,
+        "N/A": 3,
+        "NA": 4,
+        "n/a": 5,
+        "na": 6,
+        "unknown": 7
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 130,
+      "qid": "Q60_2_2",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - Covered Urban Reservoirs - Treated Water Storage (MG)",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "1.5": 2,
+        "138.7": 3,
+        "14": 4,
+        "147": 5,
+        "4": 6,
+        "4 Reservoirs / 31.5 MG": 7,
+        "Covered storage Treated Water - 138.7 mg": 8,
+        "NA": 9,
+        "n/a": 10,
+        "na": 11,
+        "unknown": 12
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 131,
+      "qid": "Q60_3_1",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - ASR Reservoir - Raw Water Storage (MG)",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "260 mg": 2,
+        "500,000": 3,
+        "98000000": 4,
+        "N/A": 5,
+        "NA": 6,
+        "n/a": 7,
+        "na": 8,
+        "unknown": 9
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 132,
+      "qid": "Q60_3_2",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - ASR Reservoir - Treated Water Storage (MG)",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "200-300 gallons": 2,
+        "4 ASR Wells / 1 billion gallon capacity": 3,
+        "NA": 4,
+        "The ASR system has a theoretical underground storage of about 1,000 mg or 1 billion gallons.": 5,
+        "n/a": 6,
+        "na": 7,
+        "unknown": 8
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 133,
+      "qid": "Q60_4_TEXT",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 134,
+      "qid": "Q60_4_1",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - Other (Please Specify) - Raw Water Storage (MG)",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 135,
+      "qid": "Q60_4_2",
+      "text": "Please list the amount of raw and treated water storage you have for the different types of applicable storage: - Other (Please Specify) - Treated Water Storage (MG)",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 136,
+      "qid": "Q61",
+      "text": "In what year will your daily production exceed design capacity?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 137,
+      "qid": "Q62",
+      "text": "Does your city have an approved water conservation and management plan?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 138,
+      "qid": "Q63",
+      "text": "Do you measure water loss?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 139,
+      "qid": "Q64",
+      "text": "What method is used to determine water loss in the system? - Selected Choice",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "Comparison of productions meters and customer metered volumes": 1,
+        "IWA/AWWA water loss methodology": 2,
+        "Unsure": 3,
+        "Other (Please Specify)": 4
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 140,
+      "qid": "Q64_4_TEXT",
+      "text": "What method is used to determine water loss in the system? - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 141,
+      "qid": "Q65_1",
+      "text": "What percentage of the system does each type of meter represent? - Radio (%)",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": ""
+    },
+    {
+      "index": 142,
+      "qid": "Q65_2",
+      "text": "What percentage of the system does each type of meter represent? - Touch (%)",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 0 non-numeric answers will be blanked"
+    },
+    {
+      "index": 143,
+      "qid": "Q65_3",
+      "text": "What percentage of the system does each type of meter represent? - Manual Read (%)",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 0 non-numeric answers will be blanked"
+    },
+    {
+      "index": 144,
+      "qid": "Q66",
+      "text": "Do you have any additional comments on water services?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 145,
+      "qid": "Q68",
+      "text": "Does your city provide wastewater services?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 146,
+      "qid": "Q69_1_1",
+      "text": "What is the service population in 2024? - Service Population (Permanent Residents) - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": ""
+    },
+    {
+      "index": 147,
+      "qid": "Q69_1_2",
+      "text": "What is the service population in 2024? - Service Population (Permanent Residents) - Outside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 148,
+      "qid": "Q69_2_1",
+      "text": "What is the service population in 2024? - Service Population (Including Peak Seasonal) - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 6 non-numeric answers will be blanked"
+    },
+    {
+      "index": 149,
+      "qid": "Q69_2_2",
+      "text": "What is the service population in 2024? - Service Population (Including Peak Seasonal) - Outside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 150,
+      "qid": "Q70_1_1",
+      "text": "Please list the number of connections for the following: - Residential - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": ""
+    },
+    {
+      "index": 151,
+      "qid": "Q70_1_2",
+      "text": "Please list the number of connections for the following: - Residential - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "10": 2,
+        "13": 3,
+        "193": 4,
+        "19582": 5,
+        "19852": 6,
+        "2": 7,
+        "237": 8,
+        "40": 9,
+        "41": 10,
+        "8": 11,
+        "N/A": 12
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 152,
+      "qid": "Q70_2_1",
+      "text": "Please list the number of connections for the following: - Commercial - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": ""
+    },
+    {
+      "index": 153,
+      "qid": "Q70_2_2",
+      "text": "Please list the number of connections for the following: - Commercial - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "1": 2,
+        "1 not active": 3,
+        "3": 4,
+        "4": 5,
+        "48": 6,
+        "8": 7,
+        "973": 8,
+        "N/A": 9
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 154,
+      "qid": "Q70_3_1",
+      "text": "Please list the number of connections for the following: - Other - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 155,
+      "qid": "Q70_3_2",
+      "text": "Please list the number of connections for the following: - Other - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "00": 2,
+        "1": 3,
+        "1247": 4,
+        "N/A": 5
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 156,
+      "qid": "Q71",
+      "text": "What is the annual average wastewater base (volume) for a residential customer (x1000 gal. or 1.337 CCFs)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 8 non-numeric answers will be blanked"
+    },
+    {
+      "index": 157,
+      "qid": "Q72_1",
+      "text": "Please provide the following facility, lines, and treatment information: - Total miles of sewer lines (all sizes), not including service laterals",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 158,
+      "qid": "Q72_2",
+      "text": "Please provide the following facility, lines, and treatment information: - Total number of pumps and lift stations in your city",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 6 non-numeric answers will be blanked"
+    },
+    {
+      "index": 159,
+      "qid": "Q72_3",
+      "text": "Please provide the following facility, lines, and treatment information: - Total number of treatment plants",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "N/A - All plants owned by Clean Water Services": 4,
+        "N/A, a 3rd party does our treatment. Tri-City Water Resource Recovery Facility (TCWRRF) administered by Clackamas Water Environment Services.": 5,
+        "One": 6,
+        "Unknown - managed by CWS": 7,
+        "none - contract out": 8
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 160,
+      "qid": "Q72_4",
+      "text": "Please provide the following facility, lines, and treatment information: - What percent of city wastewater lines also serve stormwater (i.e. combined sewer)?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "% unknown, but we are actively working to remove these connections": 1,
+        "0": 2,
+        "0%": 3,
+        "2": 4,
+        "25%": 5,
+        "25-30": 6,
+        "34.3%": 7,
+        "N/A": 8,
+        "Unknown": 9,
+        "none": 10,
+        "not connected": 11
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 161,
+      "qid": "Q73",
+      "text": "What level of wastewater treatment is provided to city wastewater (Check all that apply)? - Selected Choice",
+      "role": "question",
+      "kind": "multi_select",
+      "codes": {
+        "Advanced Treatment/ Tertiary": 1,
+        "Nitrogen Removal": 2,
+        "Other (Please Specify)": 3,
+        "Phosphorous Removal": 4,
+        "Primary": 5,
+        "Secondary": 6
+      },
+      "note": "6 options, expanded to indicator columns"
+    },
+    {
+      "index": 162,
+      "qid": "Q73_6_TEXT",
+      "text": "What level of wastewater treatment is provided to city wastewater (Check all that apply)? - Other (Please Specify) - Text",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 163,
+      "qid": "Q74_1",
+      "text": "Please provide the following system age and capacity information: - Year of original plant construction completion",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 4 non-numeric answers will be blanked"
+    },
+    {
+      "index": 164,
+      "qid": "Q74_2",
+      "text": "Please provide the following system age and capacity information: - Year of last major plant update",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 7 non-numeric answers will be blanked"
+    },
+    {
+      "index": 165,
+      "qid": "Q74_3",
+      "text": "Please provide the following system age and capacity information: - What is the design capacity of your treatment plant(s) in dry weather (MGD)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 166,
+      "qid": "Q74_4",
+      "text": "Please provide the following system age and capacity information: - What is the design capacity of your treatment plant(s) in peak wet weather (MGD)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 6 non-numeric answers will be blanked"
+    },
+    {
+      "index": 167,
+      "qid": "Q74_5",
+      "text": "Please provide the following system age and capacity information: - What is the total amount of wastewater treated in 2024 (MG)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 168,
+      "qid": "Q74_6",
+      "text": "Please provide the following system age and capacity information: - What was the peak wet weather flow in 2024 (MGD)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 5 non-numeric answers will be blanked"
+    },
+    {
+      "index": 169,
+      "qid": "Q74_7",
+      "text": "Please provide the following system age and capacity information: - What was the peak dry weather flow in 2024 (MGD)?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 4 non-numeric answers will be blanked"
+    },
+    {
+      "index": 170,
+      "qid": "Q75",
+      "text": "At what percent (%) capacity is the entire wastewater system operating?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 8 non-numeric answers will be blanked"
+    },
+    {
+      "index": 171,
+      "qid": "Q76",
+      "text": "In what year will the wastewater system be at maximum capacity?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 172,
+      "qid": "Q77",
+      "text": "In what year will your daily production exceed design capacity?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 173,
+      "qid": "Q78",
+      "text": "Does your city administer an industrial wastewater pre-treatment program?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 174,
+      "qid": "Q79",
+      "text": "Does your city apply or provide reclaimed water to public/private property?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 175,
+      "qid": "Q80",
+      "text": "What percentage (%) of total reclaimed water is reused/applied?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 176,
+      "qid": "Q81",
+      "text": "Where does this reuse and application occur (i.e. city park, private golf course, industrial cooling tower, etc.)?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 177,
+      "qid": "Q82",
+      "text": "Does your city apply biosolids to public/ private property?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 178,
+      "qid": "Q83",
+      "text": "Where does this biosolid application occur (i.e. city park, private golf course, etc.)?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 179,
+      "qid": "Q84",
+      "text": "Does your city landfill biosolids?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 180,
+      "qid": "Q85",
+      "text": "What percentage (%) of biosolids are landfilled?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "100": 1,
+        "100%": 2,
+        "75%": 3,
+        "85": 4,
+        "Usually 0%": 5,
+        "approx 50%, only during wet weather (Nov-March)": 6
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 181,
+      "qid": "Q86",
+      "text": "Do you have any additional comments on wastewater services?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 182,
+      "qid": "Q88",
+      "text": "Does your city provide stormwater services?",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "No": 2,
+        "Yes": 1
+      },
+      "note": "recognised answer scale"
+    },
+    {
+      "index": 183,
+      "qid": "Q89_1_1",
+      "text": "Please list the number of accounts for the following: - Residential - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 184,
+      "qid": "Q89_1_2",
+      "text": "Please list the number of accounts for the following: - Residential - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "10": 2,
+        "143": 3,
+        "N/A": 4,
+        "NA": 5,
+        "na": 6
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 185,
+      "qid": "Q89_2_1",
+      "text": "Please list the number of accounts for the following: - Commercial - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 186,
+      "qid": "Q89_2_2",
+      "text": "Please list the number of accounts for the following: - Commercial - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "8": 2,
+        "N/A": 3,
+        "na": 4
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 187,
+      "qid": "Q89_3_1",
+      "text": "Please list the number of accounts for the following: - Other - Inside City Limits",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 1 non-numeric answers will be blanked"
+    },
+    {
+      "index": 188,
+      "qid": "Q89_3_2",
+      "text": "Please list the number of accounts for the following: - Other - Outside City Limits",
+      "role": "question",
+      "kind": "coded",
+      "codes": {
+        "0": 1,
+        "N/A": 2,
+        "na": 3
+      },
+      "note": "REVIEW: codes assigned alphabetically"
+    },
+    {
+      "index": 189,
+      "qid": "Q90_1",
+      "text": "Please provide the following facility and water source information: - Total miles of piped system",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 190,
+      "qid": "Q90_2",
+      "text": "Please provide the following facility and water source information: - Total miles of open channels, ditches, and swales",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 191,
+      "qid": "Q91",
+      "text": "What is the average Equivalent Dwelling Unit (EDU) for residential in square feet?",
+      "role": "question",
+      "kind": "numeric",
+      "codes": {},
+      "note": "REVIEW: 2 non-numeric answers will be blanked"
+    },
+    {
+      "index": 192,
+      "qid": "Q92",
+      "text": "Do you have any additional comments on stormwater services?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    },
+    {
+      "index": 193,
+      "qid": "Q93",
+      "text": "Thank You for participating in this survey.\nDo you have any additional comments on any topic in this survey?",
+      "role": "question",
+      "kind": "free_text",
+      "codes": {},
+      "note": "verbatim -- listed, not tabulated"
+    }
+  ]
+}
